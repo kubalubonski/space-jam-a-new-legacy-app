@@ -22,11 +22,6 @@
     },
     {
       "file": "main.js",
-      "line": 28,
-      "description": "Just like you did to split the entire dataset by row, use `split()` on a `,` to split each row into an array of individual stats. You're looking to only grab the player's name and PER for each row."
-    },
-    {
-      "file": "main.js",
       "line": 31,
       "description": "To make sure you account for any empty rows (for example, the last row in the dataset), `continue;` through the for-loop if `stats` is null or it's length is `<= 1`.",
       "selection": {
@@ -39,6 +34,11 @@
           "character": 91
         }
       }
+    },
+    {
+      "file": "main.js",
+      "line": 28,
+      "description": "Just like you did to split the entire dataset by row, use `split()` on a `,` to split each row into an array of individual stats. You're looking to only grab the player's name and PER for each row."
     },
     {
       "file": "main.js",
